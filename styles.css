@@ -1,0 +1,156 @@
+.sub-btn {
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .bg-red {
+    background: red;
+  }
+  .logo {
+    fill: #fff;
+    width: 150px;
+    height: 40px;
+  }
+  .ft-logo {
+    fill: red;
+    width: 200px;
+    height: 40px;
+  }
+  .big {
+    font-size: 22px;
+    color: grey;
+  }
+  .u1 {
+    border-right: 1px solid gray;
+  }
+  .u2 {
+    font-weight: 700;
+  }
+  .section {
+    width: 100%;
+    min-height: 230px;
+  }
+
+  .main-section {
+    padding: 5px 10px;
+    margin: 10px auto;
+  }
+  .pos {
+    position: relative;
+  }
+  .thumbnail-story img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .style-1 {
+    color: black;
+    font-weight: 700;
+
+
+  }
+  .style-2 {
+    font-size: 13px;
+  }
+  .style-2-bold {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .us {
+    position: absolute;
+    color: red;
+    padding: 5px 15px;
+    border: 1px solid rgb(246, 246, 247);
+    bottom: 0;
+    background-color: rgba(246, 246, 247, 0.7);
+    font-weight: 700;
+  }
+
+  .other-section {
+    margin: 10px auto;
+  }
+  /* my turn */
+
+  .my-turn img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .flexcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  /* debate */
+  .debate-img {
+    height: 70px;
+    width: 70px;
+  }
+  .pos-abs {
+    position: relative;
+  }
+  .line {
+    padding: 1px;
+  }
+
+  .vs {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 135px;
+  }
+
+  .nav-list-items {
+    list-style-type: none;
+  }
+  .float-left {
+    float: left;
+  }
+  /* ads */
+  .ads img {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    border: none;
+    object-fit: cover;
+
+
+  }
+  .ads-border {
+    border: 1.5px solid rgb(197, 197, 197);
+
+  }
+  .rankings {
+    position: absolute;
+    color: blue;
+    padding: 4px 12px;
+    border: 1px solid rgb(246, 246, 247);
+    top: 1265px;
+    background-color: rgba(246, 246, 247, 0.9);
+    font-weight: 700;
+  }
+  .form {
+    height: 180px;
+    width: 90%;
+    background-color: rgb(244,245,246);
+  }
+  .btn-red {
+    background-color: red;
+    border: 1px solid red;
+    width: 80%;
+    border-radius: 3px;
+
+  }
+  input {
+    border: 1px solid rgb(244,245,246);
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .logo {
+      fill: #fff;
+      width: 300px;
+      height: 60px;
+    }
+  }
+
+  
