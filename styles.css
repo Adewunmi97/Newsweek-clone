@@ -9,6 +9,10 @@ body {
 }
 
 /* CUSTOM UTILITIES */
+ul {
+  list-style-type: none;
+}
+
 .pos-rel {
   position: relative;
 }
@@ -58,6 +62,10 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.debate-divider {
+  padding: 1px;
+}
+
 /* common stylesa */
 a:hover {
   color: red;
@@ -105,6 +113,15 @@ a:hover {
  .section {
   width: 100%;
   min-height: 230px;
+}
+
+.sub-nav a {
+  color: #000;
+}
+
+.sub-nav a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 .pos {
@@ -168,11 +185,9 @@ a:hover {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  left: 50%;
-  top: -13px;
-  padding-top: 2px;
-  transform: translateX(-50%);
-
+  margin: auto;
+  top: -16px;
+  padding-top: 5px;
 }
 
 .vs-div {
