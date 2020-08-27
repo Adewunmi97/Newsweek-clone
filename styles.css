@@ -13,16 +13,26 @@ ul {
   list-style-type: none;
 }
 
+.pos-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
 .pos-rel {
   position: relative;
 }
 
-.pos-abs {
+.pos-absolute {
   position: absolute;
 }
 
 .lh-1 {
   line-height: 1em;
+}
+
+.lh-2 {
+  line-height: 1.2em;
 }
 
 .divider {
@@ -71,6 +81,17 @@ a:hover {
   color: red;
 
 }
+
+a.border-decoration {
+  color: #000;
+}
+
+a.border-decoration:hover {
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: solid 2px red;
+}
+
 .bg-red {
   background-color: red;
 }
@@ -241,11 +262,15 @@ a:hover {
 
 }
 
-.btn-red {
+.btn-red,
+.__btn-red {
   background-color: red;
   border: 1px solid red;
-  width: 80%;
   border-radius: 3px;
+}
+
+.btn-red {
+  width: 80%;
 }
 
 input {
@@ -291,10 +316,33 @@ input {
   font-size: 19px;
 }
 
+.books,
+.newsletter {
+  min-height: 280px;
+}
+
+.book1 {
+  top: 15px;
+  left: 30px;
+}
+
+.book2 {
+  top: 32px;
+  left: 100px;
+}
+
+.newsletter-cover {
+  min-height: 295px;
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+}
+
 @media screen and (min-width: 769px) {
   body {
     font-size: 15px;
-    line-height: 20px;
+  }
+
+  .pos-fixed {
+    position: relative;
   }
 
   .logo {
@@ -304,5 +352,11 @@ input {
 
   .object-fit-cover {
     height: 180px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .newsletter {
+    min-height: 200px;
   }
 }
