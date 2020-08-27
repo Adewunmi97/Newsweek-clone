@@ -10,13 +10,13 @@
     <title>newsweek clone</title>
 </head>
 <body>
-    <nav class='navbar navbar-expand-sm bg-red'>
+    <nav class='navbar navbar-expand-lg bg-red'>
         <div class="container-fluid">
-          <span class="col d-none d-lg-block text-white">
+          <span class="col d-none d-lg-block text-white roboto-cond">
            <i class="fas fa-cloud-sun"></i>28 Lagos, NG <i class="fas fa-chevron-right arrow"></i><br>Wed, Aug 18, 2020</span>
-          <div class="col">
+          <div class="col p-0">
              <svg
-                    class="logo mr-auto"
+                    class="logo"
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -33,155 +33,161 @@
                     </g>
                   </svg>
           </div>
-          <div class="col text-right">
-            <i class="fa fa-user px-2 d-md-none text-light " aria-hidden="true"></i>
-            <span class='d-none d-md-inline-block text-white'>
+          <div class="col text-right flex-md">
+            <span class='d-none d-md-inline-block text-white roboto-cond'>
               LOGIN
             </span>
-            <button type="button" class="btn btn-warning sub-btn">SUBSCRIBE <i class="fas fa-chevron-right arrow"></i></button>
-            <i class="fa fa-bars px-2 d-lg-none text-light" aria-hidden="true"></i>
-          </div>
+            <div class="d-inline-flex pl-4"><button type="button" class="btn btn-warning sub-btn style-2 px-2 py-1 roboto-cond">SUBSCRIBE <i class="fas fa-chevron-right arrow mx-1 pt-1"></i></button></div>
+        </div>
+        <div class="d-lg-none d-md-inline-block"><i class='fa fa-bars text-light' aria-hidden="true"></i></div>
         </div>
         </div>
       </nav>
 
-      <div class="container-fluid">
-        <ul class='row nav-list-items p-0'>
-          <li class='col'>US</li>
-          <li class='col'>World</li>
-          <li class='col'>Business</li>
-          <li class='col'>Tech & Science</li>
-          <li class='col'>Culture</li>
-          <li class='col'>Newsgeek</li>
-          <li class='col'>Sports</li>
-          <li class='col'>Health</li>
-          <li class='col'>The Debate</li>
-          <li class='col'>Vantage</li>
-          <li class='col'>Weather</li>
-          <div class='d-flex'>
-          <p>Search</p>
-          <i class="fas fa-search mt-1 ml-2"></i>
-        </div>
-
-        </ul>
+      <div class="container-fluid d-none d-lg-block">
+            <ul class='row nav-list-items p-0 roboto-cond'>
+              <li class='col border-right pt-3 text-center'>US</li>
+              <li class='col border-right pt-3 text-center'>World</li>
+              <li class='col border-right pt-3 text-center'>Business</li>
+              <li class='border-right p-3 text-center'>Tech & Science</li>
+              <li class='col border-right pt-3 text-center'>Culture</li>
+              <li class='col border-right pt-3 text-center'>Newsgeek</li>
+              <li class='col border-right pt-3 text-center'>Sports</li>
+              <li class='col border-right pt-3 text-center'>Health</li>
+              <li class='col border-right pt-3 text-center'>The Debate</li>
+              <li class='col border-right pt-3 text-center'>Vantage</li>
+              <li class='col pt-3 text-center'>Weather</li>
+              <div class='d-flex'>
+              <p class="pt-3">Search</p>
+              <i class="fas fa-search mt-1 ml-2 pt-3"></i>
+            </div>
+            </ul>
         </div>
       </div>
   <hr class='d-none d-lg-block'>
-  <ul class='list-unstyled justify-content-start d-none d-lg-flex pl-3 u2'>
-    <li class='pr-3 active'>TRENDING</li>
-    <li class='pr-3'>DONALD TRUMP</li>
-    <li class='pr-3'>JOE BIDEN</li>
-    <li class='pr-3'>CHINA</li>
-    <li class='pr-3'>CORONAVIRUS</li>
-    <li class='pr-3'>2020 ELECTION</l>
+  <ul class='list-unstyled justify-content-start d-none d-lg-flex pl-3 u2 roboto-cond'>
+    <li class='pr-3'>TRENDING</li>
+    <li class='pr-3 text-muted'>DONALD TRUMP</li>
+    <li class='pr-3 text-muted'>JOE BIDEN</li>
+    <li class='pr-3 text-muted'>CHINA</li>
+    <li class='pr-3 text-muted'>CORONAVIRUS</li>
+    <li class='pr-3 text-muted'>2020 ELECTION</l>
  </ul>
 
  <hr class='d-none d-lg-block'>
- <div class="container">
+ <div class="container-fluid">
    <div class="row">
      <div class="col-md-6 col-lg-3 section featured-stories order-2 order-md-1 p-0">
-       <div class="main-section">
-         <h6 class='text-secondary text-uppercase'>featured stories</h6>
+       <div>
+         <h6 class='text-secondary text-uppercase roboto-cond'>featured stories</h6>
 
          <div class="thumbnail-story section">
            <div class='pos'><img src="https://d.newsweek.com/en/full/1627491/jerry-falwell-jr.webp?w=397&h=265&q=90&f=e05c4aa39ff3a2b4c8f12a369b0cc136" alt="">
-             <div class='us'>
+             <div class='us roboto-cond'>
                U.S.
              </div>
            </div>
-           <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+           <h5><a href="#" class='style-1  roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
            <p class='style-2'>"If you entrust me with the presidency, I will draw on the best of us, not the worst," Democratic presidential candidate Joe Biden said. "I'll be an ally of the light, not the darkness."</p>
          </div>
 
          <div class="thumbnail-story section">
            <div class="thumbnail-story section">
            <div class='pos'><img src="https://d.newsweek.com/en/full/1627332/louis-dejoy-testifies-congress.webp?w=397&h=265&q=90&f=005321a1b8c489c046b588dcdc961f29" alt="">
-             <div class='us'>
+             <div class='us roboto-cond'>
                WORLD
              </div>
            </div>
-           <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light'</a></h5>
+           <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light'</a></h5>
            <p class='style-2'>"If you entrust me with the presidency, I will draw on the best of us, not the worst," Democratic presidential candidate Joe Biden said. "I'll be an ally of the light, not the darkness."</p>
          </div>
          </div>
          <div class="thumbnail-story section">
            <div class="thumbnail-story section">
            <div class='pos'><img src="https://d.newsweek.com/en/full/1627489/census-participation-rate-refusing-2020.webp?w=397&h=265&q=90&f=b58ad66ac88078914b6661ecc4d8a9a1" alt="">
-             <div class='us'>
+             <div class='us roboto-cond'>
                NEWS
              </div>
            </div>
-           <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+           <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
            <p class='style-2'>"If you entrust me with the presidency, I will draw on the best of us, not the worst," Democratic presidential candidate Joe Biden said. "I'll be an ally of the light, not the darkness."</p>
          </div>
          </div>
-         <div class="thumbnail-story section">
+         <div class="thumbnail-story section mb-5">
            <div class="thumbnail-story section">
            <div class='pos'><img src="https://d.newsweek.com/en/full/1627273/tiktok.webp?w=397&h=265&l=67&t=48&q=90&f=dcfb1554d54df50f2b9a57c38ed712d5" alt="">
-             <div class='us'>
+             <div class='us roboto-cond'>
                CULTURE
              </div>
            </div>
-           <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+           <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
            <p class='style-2'>"If you entrust me with the presidency, I will draw on the best of us, not the worst," Democratic presidential candidate Joe Biden said. "I'll be an ally of the light, not the darkness."</p>
          </div>
          </div>
        </div>
 
 
-       <div class="ads">
+       <div class="ads mb-5">
+         <div class="position-relative">
+          <img src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="">
+
+          <div class="rankings postion-absolute text-uppercase roboto-cond">RANKINGS</div>
+        </div>
+
+         <div class="ads-border"><h5><a href="#" class="style-1 mx-3 roboto-cond">Best Maternity Hospitals 2020</a></h5>
+           <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
+       </div>
+
+       <div class="ads mb-5">
+        <div class="position-relative">
          <img src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="">
 
-         <div class="rankings text-uppercase">RANKINGS</div>
-
-         <div class="ads-border"><h5><a href="#" class="style-1 mx-3">Best Maternity Hospitals 2020</a></h5>
-           <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
+         <div class="rankings postion-absolute text-uppercase roboto-cond">RANKINGS </div>
        </div>
 
-       <div class="ads">
-         <img src="https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a" alt="">
+        <div class="ads-border"><h5><a href="#" class="style-1 mx-3 roboto-cond">Best Maternity Hospitals 2020</a></h5>
+          <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
+      </div>
 
-         <div class="rankings text-uppercase">RANKINGS</div>
+      <div class="ads mb-5">
+        <div class="position-relative">
+         <img src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="">
 
-         <div class="ads-border"><h5><a href="#" class="style-1 mx-3">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</a></h5>
-           <p class="style-2 mx-3">Newsweek AMPLIFY, the company's performance marketing business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies.</p></div>
+         <div class="rankings postion-absolute text-uppercase roboto-cond">RANKINGS</div>
        </div>
 
-       <div class="ads">
-         <img src="https://d.newsweek.com/en/full/1627222/americas-best-physical-rehabilitation-centers-2020.png?w=500&h=333&f=77ba5dea483fdf8b3cd3a4329fb0b853" alt="">
+        <div class="ads-border"><h5><a href="#" class="style-1 mx-3 roboto-cond">Best Maternity Hospitals 2020</a></h5>
+          <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
+      </div>
 
-         <div class="rankings text-uppercase">RANKINGS</div>
+       <div class="ads mb-5">
+         <div class="position-relative">
+          <img src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="">
 
-         <div class="ads-border"><h5><a href="#" class="style-1 mx-3">America's Best Physical Rehabilitation Centers 2020</a></h5>
-           <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
-       </div>
+          <div class="rankings postion-absolute text-uppercase roboto-cond">RANKINGS</div>
+        </div>
 
-       <div class="ads">
-         <img src="https://d.newsweek.com/en/full/1603109/americas-best-realtors-2020.jpg?w=500&h=333&f=d564ac26330b80cd33b2b013a3e6fc8b" alt="">
-
-         <div class="rankings text-uppercase">RANKINGS</div>
-
-         <div class="ads-border"><h5><a href="#" class="style-1 mx-3">America’s Best Realtors 2020</a></h5>
+         <div class="ads-border"><h5><a href="#" class="style-1 mx-3 roboto-cond">Best Maternity Hospitals 2020</a></h5>
            <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
        </div>
      </div>
 
      <div class="col-md-6 col-lg-6 section top-story order-1 order-md-2 p-0 px-3">
        <div>
-         <h6 class='text-secondary'>TOP STORY</h6>
+         <h6 class='text-secondary roboto-cond'>TOP STORY</h6>
          <div class="thumbnail-story section">
            <div class='pos'><img src="https://d.newsweek.com/en/full/1626156/joe-biden-jill-biden.webp?w=591&h=364&f=817634b3bc12772e174bc901a431c577" alt="">
-             <div class='us'>
+             <div class='us roboto-cond'>
                U.S.
              </div>
            </div>
-           <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+           <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
            <p class='style-2'>"If you entrust me with the presidency, I will draw on the best of us, not the worst," Democratic presidential candidate Joe Biden said. "I'll be an ally of the light, not the darkness."</p>
          </div>
        </div>
        <div class="main-section d-none d-md-block">
          <div class="container section my-turn">
-           <h6 class='text-secondary'>MY TURN</h6>
+           <h6 class='text-secondary roboto-cond'>MY TURN</h6>
    <div class="row">
      <div class="col-sm px-0">
        <img src="https://d.newsweek.com/en/full/1623709/teacher-teaching-alexandra-ocasio-cortez.webp?w=397&h=397&f=e8cee8a4aa1b7006295242eb53dcf286" alt="">
@@ -200,7 +206,7 @@
        </div>
        <div class="main-section d-none d-md-block">
 
-           <div class="container section my-turn">
+           <div class="container section my-turn roboto-cond">
            <h6 class='text-secondary'>Culture &amp; Travel</h6>
    <div class="row">
      <div class="col-sm px-0">
@@ -219,13 +225,14 @@
  </div>
        </div>
        <div class="main-section d-none d-md-block">
+        <h6 class='text-secondary border-bottom pb-2 roboto-cond'>MORE STORIES</h6>
          <div class="row border-bottom my-2">
-     <div class="col-12 border-bottom">
+     <div class="col-12 border-bottom pt-2">
            <div class="float-left mr-3">
                <img src="https://d.newsweek.com/en/full/1626704/biden-grandchildren-pledge-god-dnc.webp?w=95&h=95&f=50ea9726f5178ebc70e4b93462344700" alt="">
                    </div>
                      <div>
-                       <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                       <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                        <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                      </div>
                    </div>
@@ -234,7 +241,7 @@
                        <img src="https://d.newsweek.com/en/full/1627135/trump.webp?w=95&h=95&f=481b35c8d537ffd0fde304a84710e471" alt="">
                        </div>
                          <div>
-                           <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                           <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                            <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                          </div>
                        </div>
@@ -243,7 +250,7 @@
                            <img src="https://d.newsweek.com/en/full/1626704/biden-grandchildren-pledge-god-dnc.webp?w=95&h=95&f=50ea9726f5178ebc70e4b93462344700" alt="">
                            </div>
                              <div>
-                               <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                               <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                              </div>
                            </div>
@@ -252,7 +259,7 @@
                                <img src="https://d.newsweek.com/en/full/1627135/trump.webp?w=95&h=95&f=481b35c8d537ffd0fde304a84710e471" alt="">
                                </div>
                                  <div>
-                                   <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                                   <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                    <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                                  </div>
                                </div>
@@ -261,7 +268,7 @@
                                    <img src="https://d.newsweek.com/en/full/1626704/biden-grandchildren-pledge-god-dnc.webp?w=95&h=95&f=50ea9726f5178ebc70e4b93462344700" alt="">
                                    </div>
                                      <div>
-                                       <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                                       <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                        <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                                      </div>
                                    </div>
@@ -270,7 +277,7 @@
                                        <img src="https://d.newsweek.com/en/full/1627135/trump.webp?w=95&h=95&f=481b35c8d537ffd0fde304a84710e471" alt="">
                                        </div>
                                          <div>
-                                           <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                                           <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                            <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                                          </div>
                                        </div>
@@ -279,7 +286,7 @@
                                            <img src="https://d.newsweek.com/en/full/1626704/biden-grandchildren-pledge-god-dnc.webp?w=95&h=95&f=50ea9726f5178ebc70e4b93462344700" alt="">
                                            </div>
                                              <div>
-                                               <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                                               <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                                <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                                              </div>
                                            </div>
@@ -288,7 +295,7 @@
                                                <img src="https://d.newsweek.com/en/full/1627135/trump.webp?w=95&h=95&f=481b35c8d537ffd0fde304a84710e471" alt="">
                                                </div>
                                                  <div>
-                                                   <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                                                   <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                                    <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                                                  </div>
                                                </div>
@@ -297,7 +304,7 @@
                                                    <img src="https://d.newsweek.com/en/full/1626704/biden-grandchildren-pledge-god-dnc.webp?w=95&h=95&f=50ea9726f5178ebc70e4b93462344700" alt="">
                                                    </div>
                                                      <div>
-                                                       <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                                                       <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                                        <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                                                      </div>
                                                    </div>
@@ -306,7 +313,7 @@
                                                        <img src="https://d.newsweek.com/en/full/1627135/trump.webp?w=95&h=95&f=481b35c8d537ffd0fde304a84710e471" alt="">
                                                        </div>
                                                          <div>
-                                                           <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                                                           <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                                            <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                                                          </div>
                                                        </div>
@@ -315,7 +322,7 @@
                                                            <img src="https://d.newsweek.com/en/full/1626704/biden-grandchildren-pledge-god-dnc.webp?w=95&h=95&f=50ea9726f5178ebc70e4b93462344700" alt="">
                                                            </div>
                                                              <div>
-                                                               <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                                                               <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                                                <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                                                              </div>
                                                            </div>
@@ -324,7 +331,7 @@
                                                                <img src="https://d.newsweek.com/en/full/1627135/trump.webp?w=95&h=95&f=481b35c8d537ffd0fde304a84710e471" alt="">
                                                                </div>
                                                                  <div>
-                                                                   <h5><a href="#" class='style-1'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
+                                                                   <h5><a href="#" class='style-1 roboto-cond'>Joe Biden Accepts Democratic Nomination: 'I Will Be An Ally of the Light '</a></h5>
                                                                    <p>President Donald Trump looked to appeal to evangelical Christians, suburban mothers and Midwest voters as he falsely claimed Democrats are attacking their values — even going so far as to remove "God" from the Pledge of Allegiance.</p>
                                                                  </div>
                                                                </div>
@@ -335,10 +342,10 @@
 
      </div>
      <div class="col-lg-3 section other order-3 p-0">
-       <div class="other-section section pos-abs">
+       <div class="other-section section roboto-cond">
          <h6 class='text-secondary'>THE DEBATE</h6>
          <div class="col-lg-12">
-           <div class="row border-bottom">
+           <div class="row">
              <div class="col-4 p-0 pr-3">
                <img class='w-100' src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.webp?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95" alt=""></div>
                <div class="col-7 p-0">
@@ -346,6 +353,11 @@
  BY MAJOR NEILL FRANKLIN (RET.)</p>
                </div>
            </div>
+           <div class="vs-div position-relative">
+             <p class="text-center bg-dark text-white position-absolute vs">
+              vs
+             </p>
+            </div>
            <div class="row border-bottom mt-2">
              <div class="col-7 p-0">
                <p class="style-2-bold">Legalizing Pot Is a Catastrophic Mistake
@@ -356,129 +368,136 @@
              </div>
            </div>
          </div>
+
        </div>
-     <div class="container">
-     <div><p class="text-center">
-       <span class="text-uppercase vs bg-dark p-2 text-white pos-rel">vs</span>
-     </p>
-       </div>
-   </div>
        <div class="other-section section">
-           <h6 class='text-secondary text-uppercase'>opinion</h6>
-           <div class="row border-bottom mx-0">
-             <div class="col-4 p-0 pr-3">
-               <img class='w-100' src="https://d.newsweek.com/en/full/1627309/kerri-kennedy.png?w=63&h=63&f=c91819a28ccdacd4bf109fcaf5c892f5" alt=""></div>
-               <div class="col-7 p-0">
-                   <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable</a>
-                       <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
+           <div class="roboto-cond mb-5">
+            <h6 class='text-secondary text-uppercase'>opinion</h6>
+            <div class="row border-bottom mx-0 pt-1">
+              <div class="col-4 p-0 pr-3">
+                <img class='w-100' src="https://d.newsweek.com/en/full/1627309/kerri-kennedy.png?w=63&h=63&f=c91819a28ccdacd4bf109fcaf5c892f5" alt=""></div>
+                <div class="col-7 p-0">
+                    <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable</a>
+                        <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
 
-               </div>
+                </div>
+            </div>
+
+            <div class="row border-bottom mx-0 pt-2">
+              <div class="col-4 p-0 pr-3">
+                <img class='w-100' src="https://d.newsweek.com/en/full/1627309/kerri-kennedy.png?w=63&h=63&f=c91819a28ccdacd4bf109fcaf5c892f5" alt=""></div>
+                <div class="col-7 p-0">
+                    <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
+                        </a>
+                        <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
+                </div>
+            </div>
+            <div class="row border-bottom mx-0 pt-2">
+              <div class="col-4 p-0 pr-3">
+                <img class='w-100' src="https://d.newsweek.com/en/full/110947/frank-donatelli.webp?w=63&h=63&f=b92e963751e75af631fc1a59d57596f9" alt=""></div>
+                <div class="col-7 p-0">
+                    <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
+
+                        </a>
+                        <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
+                </div>
+            </div>
+            <div class="row border-bottom mx-0 pt-2">
+              <div class="col-4 p-0 pr-3">
+                <img class='w-100' src="https://d.newsweek.com/en/full/110947/frank-donatelli.webp?w=63&h=63&f=b92e963751e75af631fc1a59d57596f9" alt=""></div>
+                <div class="col-7 p-0">
+                    <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
+                        </a>
+                        <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
+                </div>
+            </div>
+            <div class="row border-bottom mx-0 pt-2">
+              <div class="col-4 p-0 pr-3">
+                <img class='w-100' src="https://d.newsweek.com/en/full/110947/frank-donatelli.webp?w=63&h=63&f=b92e963751e75af631fc1a59d57596f9" alt=""></div>
+                <div class="col-7 p-0">
+                    <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
+                        </a>
+                        <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
+                </div>
+            </div>
+            <div class="row border-bottom mx-0 pt-2">
+              <div class="col-4 p-0 pr-3">
+                <img class='w-100' src="https://d.newsweek.com/en/full/110947/frank-donatelli.webp?w=63&h=63&f=b92e963751e75af631fc1a59d57596f9" alt=""></div>
+                <div class="col-7 p-0">
+                  <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
+                    </a>
+                    <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
+                </div>
+            </div>
            </div>
 
-           <div class="row border-bottom mx-0">
-             <div class="col-4 p-0 pr-3">
-               <img class='w-100' src="https://d.newsweek.com/en/full/1627309/kerri-kennedy.png?w=63&h=63&f=c91819a28ccdacd4bf109fcaf5c892f5" alt=""></div>
-               <div class="col-7 p-0">
-                   <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
-                       </a>
-                       <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
-               </div>
-           </div>
-           <div class="row border-bottom mx-0">
-             <div class="col-4 p-0 pr-3">
-               <img class='w-100' src="https://d.newsweek.com/en/full/110947/frank-donatelli.webp?w=63&h=63&f=b92e963751e75af631fc1a59d57596f9" alt=""></div>
-               <div class="col-7 p-0">
-                   <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
+           <div class="ads">
+            <div class="position-relative">
+             <img src="https://d.newsweek.com/en/full/1619928/americas-best-addiction-treatment-centers-2020.jpg?w=1310&q=95&f=c4f1891f8d44d376b7b845d1fe9844ff" alt="">
 
-                       </a>
-                       <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
-               </div>
-           </div>
-           <div class="row border-bottom mx-0">
-             <div class="col-4 p-0 pr-3">
-               <img class='w-100' src="https://d.newsweek.com/en/full/110947/frank-donatelli.webp?w=63&h=63&f=b92e963751e75af631fc1a59d57596f9" alt=""></div>
-               <div class="col-7 p-0">
-                   <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
-                       </a>
-                       <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
-               </div>
-           </div>
-           <div class="row border-bottom mx-0">
-             <div class="col-4 p-0 pr-3">
-               <img class='w-100' src="https://d.newsweek.com/en/full/110947/frank-donatelli.webp?w=63&h=63&f=b92e963751e75af631fc1a59d57596f9" alt=""></div>
-               <div class="col-7 p-0">
-                   <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
-                       </a>
-                       <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
-               </div>
-           </div>
-           <div class="row border-bottom mx-0">
-             <div class="col-4 p-0 pr-3">
-               <img class='w-100' src="https://d.newsweek.com/en/full/110947/frank-donatelli.webp?w=63&h=63&f=b92e963751e75af631fc1a59d57596f9" alt=""></div>
-               <div class="col-7 p-0">
-                 <a href="#" class='style-2-bold text-dark'>The Democrats Are Off to a Good Start—But Not Untouchable
-                   </a>
-                   <p class="text-muted style-2 font-weight-bold">BY FRANK DONATELLI</p>
-               </div>
+             <div class="rankings postion-absolute text-uppercase roboto-cond">RANKINGS</div>
            </div>
 
-           <div class="ads my-3">
-             <img src="https://d.newsweek.com/en/full/1611414/herrman-herrman-pllc.jpg?w=500&h=333&f=69f37d2439e01f22d609736cf8b5f3cc" alt="">
+            <div class="ads-border"><h5><a href="#" class="style-1 mx-3 roboto-cond">Best Maternity Hospitals 2020</a></h5>
+              <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
+          </div>
 
-             <div class="rankings text-uppercase">RANKINGS</div>
-
-             <div class="ads-border"><h5><a href="#" class="style-1 mx-3">America's Best Physical Rehabilitation Centers 2020</a></h5>
-               <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
-           </div>
-
-           <div class="form my-3 mx-2">
-             <div class="d-flex">
-               <img src="url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210" class="bg-danger" alt="">
+           <div class="form my-5 mx-3 col pt-3">
+             <div class='roboto-cond col-12 d-flex p-0 pl-4'>
+              <svg class="n-icon bg-red mr-auto"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              enable-background="new 0 0 29 28"
+              version="1.1"
+              viewBox="0 0 29 28"
+              xml:space="preserve"
+            >
+              <polygon
+                class="st0"
+                points="8 22 12 22 12 15 17 22 21 22 21 6 17 6 17 13 12 6 8 6"
+              />
+            </svg>
                <h6>START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
              </div>
              <input type="text" value="Email address" class="my-3 mx-4">
-             <button class="btn-red text-white my-2 mx-4"> FREE SIGN UP<i class="fas fa-chevron-right text-white"></i></button>
+             <button class="btn-red text-white my-2 mx-4 roboto-cond"> FREE SIGN UP<i class="fas fa-chevron-right text-white"></i></button>
            </div>
 
-           <div class="ads my3">
-             <img src="https://d.newsweek.com/en/full/1621635/americas-best-addiction-treatment-centers-2020.png?w=500&h=333&f=882d6618257cbde5fd5acc54362e6fe9" alt="">
+           <div class="ads mb-5">
+            <div class="position-relative">
+             <img src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="">
 
-             <div class="rankings text-uppercase">RANKINGS</div>
-
-             <div class="ads-border"><h5><a href="#" class="style-1 mx-3">Best Maternity Hospitals 2020</a></h5>
-               <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
+             <div class="rankings postion-absolute text-uppercase roboto-cond">RANKINGS</div>
            </div>
 
-           <div class="ads">
-             <img src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.jpg?w=500&h=333&f=c96d696a017681c45d2f464a2ae0e23d" alt="">
+            <div class="ads-border"><h5><a href="#" class="style-1 mx-3 roboto-cond">Best Maternity Hospitals 2020</a></h5>
+              <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
+          </div>
 
-             <div class="rankings text-uppercase">RANKINGS</div>
+          <div class="ads mb-5">
+            <div class="position-relative">
+             <img src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="">
 
-             <div class="ads-border"><h5><a href="#" class="style-1 mx-3">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</a></h5>
-               <p class="style-2 mx-3">Newsweek AMPLIFY, the company's performance marketing business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies.</p></div>
+             <div class="rankings postion-absolute text-uppercase roboto-cond">RANKINGS</div>
            </div>
 
-           <div class="ads">
-             <img src="https://d.newsweek.com/en/full/1606968/best-nursing-homes-2020.png?w=500&h=333&f=c4c9af7aa9b2229347ab028f6dbddafa" alt="">
+            <div class="ads-border"><h5><a href="#" class="style-1 mx-3 roboto-cond">Best Maternity Hospitals 2020</a></h5>
+              <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
+          </div>
 
-             <div class="rankings text-uppercase">RANKINGS</div>
+          <div class="ads">
+            <div class="position-relative">
+             <img src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="">
 
-             <div class="ads-border"><h5><a href="#" class="style-1 mx-3">Best Nursing Homes 2021</a></h5>
-               <p class="style-2 mx-3">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking of Best Nursing Homes 2021. If you work in this field, please participate in our survey.</p></div>
-             </div>
+             <div class="rankings postion-absolute text-uppercase roboto-cond">RANKINGS</div>
+           </div>
 
-       </div>
-       <div class="other-section section d-md-none">
-         More Stories
-       </div>
-       <div class="other-section section d-md-none">
-         My Turn
-       </div>
-       <div class="other-section section d-md-none">
-         Culture &amp; Travel
-       </div>
-     </div>
-   </div>
+            <div class="ads-border"><h5><a href="#" class="style-1 mx-3 roboto-cond">Best Maternity Hospitals 2020</a></h5>
+              <p class="style-2 mx-3">Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best Physical Rehabilitation Centers.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
    <div class="row">
     <div class="col-12 main-section in-the-mag bg-white">
       <div class="container">
@@ -948,10 +967,10 @@
     </div>
   </div>
 
- <footer>
+ <footer class="m-0 p-0">
   <div class="container-fluid">
-   <div class='d-md-flex justify-content-between'>
-      <div class='d-md-flex align-items-md-center'>
+   <div class='d-md-flex justify-content-between border-bottom'>
+      <div class='align-items-md-end d-md-flex'>
       <svg
         class="ft-logo mr-auto"
               version="1.1"
@@ -982,7 +1001,6 @@
     </div>
    </div>
 
-    <hr>
     <div class='row'>
       <div class='col-12'>
       <ul class='d-flex list-unstyled'><strong>Editor:</strong>
@@ -990,7 +1008,7 @@
       <li class='pr-3'>Pakistan</li>
       <li class='pr-3'>Polska</li>
       <li class='pr-3'>Romania</li>
-      <ul/>
+      </ul>
         </div>
       <div class='col-12'>
          <ul class='d-flex flex-wrap list-unstyled'>

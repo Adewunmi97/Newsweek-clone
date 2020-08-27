@@ -1,19 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
+body {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial,Helvetica,sans-serif;
+  overflow-x: hidden;
+}
+/* common stylesa */
+a:hover {
+  color: red;
+
+}
+.bg-red {
+  background-color: red;
+}
+/* .main-section */
 .sub-btn {
   border-radius: 25px;
-  font-weight: 700;
-  font-size: 15px;
+  font-size: 13px;
 }
-
-.bg-red {
-  background: red;
+.fa-bars {
+  position: relative;
+  height: auto;
+  width: 100%;
 }
 
 .logo {
   fill: #fff;
-  width: 150px;
-  height: 40px;
 }
 
 .ft-logo {
@@ -35,14 +49,9 @@
   font-weight: 700;
 }
 
-.section {
+ .section {
   width: 100%;
   min-height: 230px;
-}
-
-.main-section {
-  padding: 5px 10px;
-  margin: 10px auto;
 }
 
 .pos {
@@ -57,10 +66,11 @@
 .style-1 {
   color: black;
   font-weight: 700;
+  font-family: roboto-condensed;
 }
 
 .style-2 {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .style-2-bold {
@@ -77,11 +87,6 @@
   background-color: rgba(246, 246, 247, 0.7);
   font-weight: 700;
 }
-
-.other-section {
-  margin: 10px auto;
-}
-
 /* my turn */
 
 .my-turn img {
@@ -109,11 +114,21 @@
 }
 
 .vs {
-  height: 30px;
-  width: 30px;
-  border-radius: 30px;
-  position: absolute;
-  top: 135px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  left: 50%;
+  top: -13px;
+  padding-top: 2px;
+  transform: translateX(-50%);
+
+}
+
+.vs-div {
+  background-color: white;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .nav-list-items {
@@ -142,7 +157,7 @@
   color: blue;
   padding: 4px 12px;
   border: 1px solid rgb(246, 246, 247);
-  top: 1265px;
+  bottom: 0;
   background-color: rgba(246, 246, 247, 0.9);
   font-weight: 700;
 }
@@ -151,6 +166,13 @@
   height: 180px;
   width: 90%;
   background-color: rgb(244, 245, 246);
+}
+.n-icon {
+  fill: white;
+  height: 22px;
+  width: 22px;
+  top: 5px;
+
 }
 
 .btn-red {
@@ -164,7 +186,8 @@ input {
   border: 1px solid rgb(244, 245, 246);
   width: 80%;
   margin: 0 auto;
-}/* CUSTOM UTILITIES */
+}
+/* CUSTOM UTILITIES */
 .pos-rel {
   position: relative;
 }
@@ -179,7 +202,7 @@ input {
 
 .divider {
   height: 1px;
-  background-color: rgba(0,0,0,0.1);
+  /* background-color: rgba(0,0,0,0.1); */
 }
 
 .font-m-regular {
@@ -208,10 +231,6 @@ input {
 
 .color-red {
   color: red;
-}
-
-.bg-red {
-  background-color: red;
 }
 
 .roboto-cond {
@@ -243,35 +262,12 @@ input {
   padding: 10px;
 }
 
-.main-section {
-  background-color: #f5f5f5;
+ /* .main-section {
   padding: 10px 5px;
   margin: 10px auto;
-}
-
-.gray {
-  background-color: rgba(0,0,0,0.1);
-}
+} */
 
 .thumbnail-story {
-  background-color: rgba(0,0,0,0.4);
-  margin: 10px auto;
-}
-
-.featured-stories {
-  background-color: rgba(0,0,0,0.1);
-}
-
-.top-story {
-  background-color: rgba(0,0,0,0.2);
-}
-
-.other {
-  background-color: rgba(0,0,0,0.3);
-}
-
-.other-section {
-  background-color: rgba(0,0,0,0.5);
   margin: 10px auto;
 }
 
@@ -283,6 +279,19 @@ input {
 
 .newsweek-title {
   font-size: 19px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    fill: #fff;
+    width: 120px;
+    height: 40px;
+  }
+
+  body {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
