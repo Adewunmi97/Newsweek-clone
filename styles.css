@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 body {
+  background-color: rgb(244,245,246);
   color: #333;
   font-size: 13px;
   line-height: 18px;
   font-family: Arial,Helvetica,sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
   overflow-x: hidden;
 }
 
@@ -124,7 +127,7 @@ a:hover {
   color: red;
 }
 
-.pos {
+ .pos {
   position: relative;
 }
 
@@ -272,13 +275,8 @@ input {
   min-height: 150px;
 }
 
- /* .main-section {
-  padding: 10px 5px;
-  margin: 10px auto;
-} */
-
-.thumbnail-story {
-  margin: 10px auto;
+ .main-section{
+  background-color: white;
 }
 
 .newsweek-icon {
