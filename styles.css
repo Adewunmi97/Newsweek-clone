@@ -7,6 +7,57 @@ body {
   font-family: Arial,Helvetica,sans-serif;
   overflow-x: hidden;
 }
+
+/* CUSTOM UTILITIES */
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.lh-1 {
+  line-height: 1em;
+}
+
+.divider {
+  height: 1px;
+  /* background-color: rgba(0,0,0,0.1); */
+}
+
+.font-m-regular {
+  font-size: 15px;
+}
+
+.font-regular {
+  font-size: 16px;
+}
+
+.font-medium {
+  font-size: 18px;
+}
+
+.font-large {
+  font-size: 20px;
+}
+
+.font-m-large {
+  font-size: 22px;
+}
+
+.font-mx-large {
+  font-size: 24px;
+}
+
+.color-red {
+  color: red;
+}
+
+.roboto-cond {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 /* common stylesa */
 a:hover {
   color: red;
@@ -28,6 +79,8 @@ a:hover {
 
 .logo {
   fill: #fff;
+  width: 132px;
+  height: 20px;
 }
 
 .ft-logo {
@@ -65,8 +118,6 @@ a:hover {
 
 .style-1 {
   color: black;
-  font-weight: 700;
-  font-family: roboto-condensed;
 }
 
 .style-2 {
@@ -187,55 +238,6 @@ input {
   width: 80%;
   margin: 0 auto;
 }
-/* CUSTOM UTILITIES */
-.pos-rel {
-  position: relative;
-}
-
-.pos-abs {
-  position: absolute;
-}
-
-.lh-1 {
-  line-height: 1em;
-}
-
-.divider {
-  height: 1px;
-  /* background-color: rgba(0,0,0,0.1); */
-}
-
-.font-m-regular {
-  font-size: 15px;
-}
-
-.font-regular {
-  font-size: 16px;
-}
-
-.font-medium {
-  font-size: 18px;
-}
-
-.font-large {
-  font-size: 20px;
-}
-
-.font-m-large {
-  font-size: 22px;
-}
-
-.font-mx-large {
-  font-size: 24px;
-}
-
-.color-red {
-  color: red;
-}
-
-.roboto-cond {
-  font-family: 'Roboto Condensed', sans-serif;
-}
 
 .post-tag {
   bottom: 0;
@@ -251,15 +253,8 @@ input {
   object-fit: cover;
 }
 
-@media screen and (min-width: 768px) {
-  .object-fit-cover {
-    height: 180px;
-  }
-}
-
 .section {
   min-height: 150px;
-  padding: 10px;
 }
 
  /* .main-section {
@@ -281,23 +276,18 @@ input {
   font-size: 19px;
 }
 
-@media screen and (min-width: 768px) {
-  .logo {
-    fill: #fff;
-    width: 120px;
-    height: 40px;
-  }
-
+@media screen and (min-width: 769px) {
   body {
     font-size: 15px;
     line-height: 20px;
   }
-}
 
-@media screen and (min-width: 1024px) {
   .logo {
-    fill: #fff;
-    width: 300px;
+    width: 396px;
     height: 60px;
+  }
+
+  .object-fit-cover {
+    height: 180px;
   }
 }
