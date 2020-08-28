@@ -18,7 +18,8 @@ ul {
 
 .pos-fixed {
   position: fixed;
-  width: 95%;
+  width: 100%;
+  left: 0;
   top: 0;
   z-index: 3;
 }
@@ -41,8 +42,6 @@ ul {
 
 .divider {
   height: 1px;
-
-  /* background-color: rgba(0,0,0,0.1); */
 }
 
 .font-m-regular {
@@ -349,17 +348,19 @@ input {
     width: 100%;
   }
 
-  .logo {
-    width: 396px;
-    height: 60px;
-  }
-
   .object-fit-cover {
     height: 180px;
   }
 
   .ads {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .logo {
+    width: 396px;
+    height: 60px;
   }
 }
 
