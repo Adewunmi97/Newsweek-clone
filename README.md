@@ -2,7 +2,7 @@
 
 # Newsweek Landing Page
 
-> This project focusses on cloning the current landing page of Newsweek.   
+> This project focusses on cloning the current landing page of Newsweek.
 The main goal of the project is to practice our knowledge of Twitter Bootstrap in creating a responsive website.
 
 ![screenshot](./app_screenshot.png)
