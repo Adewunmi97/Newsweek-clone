@@ -34,7 +34,7 @@ The sections below were covered in this project:
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Adewunmi97/Newsweek-clone/feature-branch/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Adewunmi97/Newsweek-clone/5b35faafa751dddaf5b061373160ca4097de9093/index.html)
 
 
 ## Getting Started
